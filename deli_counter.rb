@@ -27,5 +27,11 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  nextPerson = katz_deli.pop
+  if katz_deli.length == 0
+    puts "There is nobody waiting to be servied!"
+  elsif
+    nextPerson = katz_deli.shift
+  
+  
+  puts "Currently serving #{nextPerson}."
 end
